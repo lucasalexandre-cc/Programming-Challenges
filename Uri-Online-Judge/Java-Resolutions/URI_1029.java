@@ -1,6 +1,9 @@
+package URI;
+
 import java.util.Scanner;
 public class URI_1029 {
 	static int x = 0;
+	
 	public static int chamadasFib(int num){
 		if(num == 0){
 			return 0;
@@ -11,6 +14,7 @@ public class URI_1029 {
 			return chamadasFib(num-1)+chamadasFib(num-2);
 		}
 	}
+	
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
 		int cont = input.nextInt();
